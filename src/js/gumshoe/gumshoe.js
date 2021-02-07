@@ -149,7 +149,7 @@
       if (settings.container.self === window) {
         return window.innerHeight || document.documentElement.clientHeight;
       } else {
-        return container.clientHeight;
+        return settings.container.clientHeight;
       }
     };
 
